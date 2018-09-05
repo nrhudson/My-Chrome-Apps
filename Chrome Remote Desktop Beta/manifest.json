@@ -1,0 +1,17 @@
+{
+        "name": "Chrome Remote Desktop Beta",
+        "description": "Use this to connect to your computers remotely",
+        "version": "0.0.0.1",
+        "manifest_version": 2,
+        "icons": {
+          "128": "icon_128.png"
+        },
+        "app": {
+          "urls": [
+            "https://remotedesktop.google.com/access/"
+          ],
+          "launch": {
+            "web_url": "https://remotedesktop.google.com/access/"
+          }
+        }
+      }
